@@ -1,6 +1,6 @@
 {
   "name" : "file",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "description": "Simple file manager",
   "url" : "https://github.com/melezhik/file"  
 }
