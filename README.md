@@ -10,10 +10,10 @@ Simple file manager.
 
 ## Manually
 
-    $ sparrow plg run file \\
-    --param target=/tmp/foo-bar.txt \\
-    --param content=hello-world \\
-    --param owner=melezhik \\
+    $ sparrow plg run file \
+    --param target=/tmp/foo-bar.txt \
+    --param content=hello-world \
+    --param owner=melezhik \
     --param group=users
 
 ## Via sparrowdo
