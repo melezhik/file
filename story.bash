@@ -30,9 +30,9 @@ if test "${action}" == "create"; then
     echo set target mode to $mode
   fi
   
-elif test "${action}" == "remove"; then
+elif test "${action}" == "delete"; then
   rm -f $target || exit 1;
-  echo target removed
+  echo target deleted
 else
   echo unknown action $action
   exit 1
