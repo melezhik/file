@@ -47,9 +47,13 @@ Simple file manager.
 
 One of two - `create|delete`. Default value is 'create'. Should be set.
 
+## source 
+
+If source is set then copy `source` into `target`. Source should be file path. No default value. Optional.
+
 ## target
 
-A file path for file to create/remove . No default value. Should be set.
+A file path being created or removed. No default value. Obligatory.
 
 ## mode
 
@@ -65,7 +69,7 @@ Sets a target group to group. No default value. Optional.
 
 ## content
 
-A file content. No default value. Optional.
+A file content. No default value. Optional. If a `content` is set then `source` parameter gets ignored.
 
 # Author
 
