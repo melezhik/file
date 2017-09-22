@@ -32,7 +32,7 @@ if test "${action}" == "create"; then
   fi
   
   if test "${group}"; then 
-    chgrp $group $target;
+    chown :$group $target;
     echo set target group to $group
   fi
   
